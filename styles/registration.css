@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(187, 218, 233);
+  }
+
+  form {
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  section{
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+  }
+
+  div{
+    background-color:rgb(187, 218, 233);
+    flex: 1;
+  }
+
+  .form-side {
+    text-align: left;
+    color: rgb(26, 24, 24);
+    padding-bottom: 0;
+  }
+
+  .image-side,.text{
+    text-align: center;
+  }
+
+  .image-pic{
+    width: 300px;
+    margin-top: 80px;
+  }
+  
+  img{
+    width: 20px;
+  }
+ 
+  h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: AlmarenaDisplayBold, sans-serif;
+    color: #000812;
+    font-size: 3.1875rem;
+    margin-bottom: 25px;
+    letter-spacing: -0.52px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #class1,#class2,#class3,#class4,#class6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #class5{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    min-width: 250px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ece7e5;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    color: white;
+    background-color: #4562a0;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 600px;
+  }
+  select{
+    min-width: 250px;
+    margin-left: 5px;
+    height: 40px;
+  }
+  button[type="submit"]:hover {
+    background-color: #4562a0;
+  }
+
+  footer{
+    background-color:rgb(187, 218, 233);
+  }
+
+  .navbar {
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(187, 218, 233);
+  }
+
+.navbar a {
+    color: black;
+    padding: 14px 90px;
+    text-align: center;
+  }
+
+.navbar a:hover {
+    background-color: rgb(155, 126, 126);
+    color: black;
+    border-radius: 5px;
+  }
