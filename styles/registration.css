@@ -94,7 +94,7 @@ body {
     height: 40px;
   }
   button[type="submit"]:hover {
-    background-color: #4562a0;
+    background-color: #6e81aa;
   }
 
   footer{
@@ -116,7 +116,7 @@ body {
   }
 
 .navbar a:hover {
-    background-color: rgb(155, 126, 126);
+    background-color: #4562a0;
     color: black;
     border-radius: 5px;
   }
