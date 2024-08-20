@@ -14,13 +14,22 @@ footer{
     bottom: 0;
 }
 
-.navbar {
+/* .navbar {
     height: 40px;
     padding: 20px;
     display: flex;
     justify-content: center;
     background-color: rgb(37, 96, 126);
-}
+} */
+.navbar {
+    height: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    background-color: rgb(37, 96, 126);
+  }
+
 
 .navbar a {
     color: rgb(238, 222, 222);
