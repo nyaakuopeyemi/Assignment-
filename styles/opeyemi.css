@@ -10,6 +10,10 @@ body {
     padding: 1em 0;
 }
 
+footer{
+    bottom: 0;
+}
+
 .navbar {
     height: 40px;
     padding: 20px;
@@ -19,7 +23,7 @@ body {
 }
 
 .navbar a {
-    color: #fff;
+    color: rgb(238, 222, 222);
     padding: 14px 90px;
     text-decoration: none;
     text-align: center;

@@ -1,21 +1,98 @@
-.navbar {
-    height: 40px;
-    padding: 20px;
+  body {
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(85, 166, 177);
+  }
+   section{
+    .video{
+      width: 80%;
+      height:"360";
+      text-align: center;
+      border: 5px solid rgb(32, 69, 87);
+      border-radius: 20px;
+      box-shadow: 0.5px 15px 15px rgba(0, 0, 0, 0.8);
+    }
+  }
+  section{
+    text-align: center;
+  }
+
+  picture {
+    .firstpic{
+    height: 600px;
     display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 5px solid rgb(32, 69, 87);
+    margin: auto;
+    box-shadow: 0.5px 15px 15px rgba(0, 0, 0, 0.8);
+    }
+  }
+  picture{
+    margin: 30px;
+  }
+  
+  .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    border-radius: 20px;
+    border: 5px solid rgb(32, 69, 87);
+    margin-top: 20px;
+    height: 530px;
+    box-shadow: 0.5px 15px 15px rgba(0, 0, 0, 0.8);
+  }
+
+  img{
+    height: 600px;
+    padding: 10px;
+    width: 80%;
+  }
+
+  .images{
+    #picx ,#picy {
+      width: 90%;
+      height: 500px;
+      margin: auto;
+      border-radius: 20px;
+      box-shadow: 0.5px 15px 15px rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  .audiotag{
+      display: block;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  a{
+    color: rgb(88, 77, 77);
+  }
+ 
+  h1 {
+      font-size: 50px;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .navbar {
+    height: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto;
     justify-content: center;
     background-color: rgb(37, 96, 126);
   }
 
 .navbar a {
-    color: #fff;
-    padding: 14px 90px;
-    text-decoration: none;
+    color: rgb(32, 31, 31);
+    padding: 14px 70px;
     text-align: center;
   }
 
 .navbar a:hover {
     background-color: rgb(245, 235, 235);
-    color: black;
+    color: rgb(112, 36, 36);
     border-radius: 5px;
     height: 30px;
-  }
+  } 
