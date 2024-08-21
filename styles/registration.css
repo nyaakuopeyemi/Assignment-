@@ -191,7 +191,7 @@ body {
         grid-template-rows: 1fr 1fr 1fr;
         justify-content: center;
         align-items: center;
-        background-color: rgb(58, 87, 102);
+        background-color: rgb(37, 96, 126);
         border-radius: 5px;
         margin: auto;
         width: 90%;
@@ -205,7 +205,7 @@ body {
 
       .navbar a:hover {
         width: 90px;
-        background-color: #ddd;
+        background-color: #746c6c;
         color: black;
         border-radius: 5px;
         height: 60px;
