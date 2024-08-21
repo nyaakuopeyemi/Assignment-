@@ -103,7 +103,7 @@ body {
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     margin-top: 10px;
-    background-color: rgb(58, 87, 102);
+    background-color: #4562a0;
   } 
 
   .navbar {
@@ -112,13 +112,13 @@ body {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    background-color: rgb(58, 87, 102);
+    background-color:#4562a0;
     margin-top: 20px;
   }
 
 
 .navbar a {
-    color: black;
+    color: rgb(250, 242, 242);
     padding: 14px 90px;
     text-align: center;
   }
@@ -205,7 +205,7 @@ body {
 
       .navbar a:hover {
         width: 90px;
-        background-color: #2863d15e;
+        background-color: #0023645e;
         color: black;
         border-radius: 5px;
         height: 60px;

@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+h1{
+    text-align: center;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -24,6 +28,9 @@ td, tr:nth-child(even){
     background-color: #2863d15e;
 }
 
+footer{
+    margin-top: 200px;
+}
 .navbar {
     height: 100%;
     padding: 20px;
@@ -75,6 +82,11 @@ td, tr:nth-child(even){
 
     th, tr:nth-child(odd){
         background-color: #333d4ed0;
+    }
+
+
+    footer{
+        margin-top: 300px;
     }
 
 }
