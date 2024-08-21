@@ -63,7 +63,7 @@ body {
     }
 
     .navbar2 {
-        width: 80%;
+        width: 90%;
         height: 90%;
         padding: 30px;
         display: grid;
@@ -71,6 +71,7 @@ body {
         background-color: rgb(37, 96, 126);
         margin: auto;
         border-radius: 5px;
+        justify-content: center;
     }
     .navbar2 a {
         color: rgb(238, 222, 222);
