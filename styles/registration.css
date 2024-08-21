@@ -184,8 +184,8 @@ body {
         background-color: rgb(37, 96, 126);
         border-radius: 5px;
       }
-      
-      .navbar a {
+
+      /* .navbar a {
           color: rgb(238, 222, 222);
           padding: 14px 90px;
           text-align: center;
@@ -196,5 +196,5 @@ body {
         color: black;
         border-radius: 5px;
         height: 30px;
-      }      
+      }       */
     }  
