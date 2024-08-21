@@ -185,15 +185,16 @@ body {
    
 
     .navbar {
-        height: 100%;
-        padding: 20px;
+        height: 90%;
+        padding: 10px;
         display: grid;
-        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr;
         justify-content: center;
+        align-items: center;
         background-color: rgb(58, 87, 102);
         border-radius: 5px;
         margin: auto;
-        width: 95%;
+        width: 90%;
       }
       
       .navbar a {
