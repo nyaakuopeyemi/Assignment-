@@ -14,7 +14,7 @@ body {
 
 .navbar2 {
     height: 40px;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
     background-color: rgb(37, 96, 126);
@@ -59,16 +59,17 @@ body {
     .header {
       width: 100%;
       color: #dbcdcd;
+      margin-top: 10px;
     }
 
     .navbar2 {
-        width: 90%;
+        width: 80%;
         height: 90%;
-        padding: 20px;
+        padding: 30px;
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         background-color: rgb(37, 96, 126);
-        margin-bottom: 10px;
+        margin: auto;
         border-radius: 5px;
     }
     .navbar2 a {
