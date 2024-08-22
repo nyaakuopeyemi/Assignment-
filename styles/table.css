@@ -37,7 +37,7 @@ footer{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    background-color: rgb(37, 96, 126);
+    background-color: #6e81aa;
     border-radius: 5px;
     margin-top: 1px;
   }
