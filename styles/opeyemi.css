@@ -1,11 +1,11 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(125, 186, 216);    
+    background-color:rgb(230, 215, 188);    
 }
 
 .header {
-    background-color:  rgb(37, 96, 126);
-    color: #242222;
+    background-color: rgb(80, 53, 53);
+    color: #ddd4d4;
     text-align: center;
     padding: 1em 0;
     border-radius: 5px;
@@ -17,7 +17,7 @@ body {
     padding: 30px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(37, 96, 126);
+    background-color: rgb(80, 53, 53);
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -33,7 +33,7 @@ body {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    background-color: rgb(37, 96, 126);
+    background-color: rgb(80, 53, 53);
     border-radius: 5px;
   }
 

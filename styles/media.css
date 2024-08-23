@@ -1,7 +1,7 @@
   body {
-    color: beige;
+    color: rgb(22, 22, 22);
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(85, 166, 177);
+    background-color: rgb(230, 215, 188);
   }
    section{
     .video{
@@ -81,7 +81,7 @@
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    background-color: rgb(37, 96, 126);
+    background-color: rgb(80, 53, 53);
   }
 
 .navbar a {
