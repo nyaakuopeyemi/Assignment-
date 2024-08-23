@@ -148,7 +148,7 @@ body {
     }
 
     form {
-      width: 90%;
+      width: 85%;
       margin: auto;
       margin-bottom: 20px;
     }
@@ -194,7 +194,7 @@ body {
         background-color: #6e81aa;
         border-radius: 5px;
         margin: 2px;
-        width: 95%;
+        width: 115%;
       }
       
       .navbar a {
