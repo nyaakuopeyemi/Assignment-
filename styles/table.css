@@ -22,11 +22,11 @@ th, td {
 }
 
 th {
-    background-color: #2b376d;
+    background-color: rgb(80, 53, 53);
     color: antiquewhite;
 }
 td, tr:nth-child(even){
-    background-color: #2863d15e;
+    background-color: rgb(165, 153, 153);
 }
 
 footer{
