@@ -6,20 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Assignment-1</title>
     <link rel="stylesheet" href="styles/opeyemi.css">
+    <script src="index.js"></script>
 </head>
 <body>
     
     <main>
-
         <div class="navbar2">
-            <a href="#bottom">Page bottom</a>
-            <a href="#biography"> Biography</a>
-            <a href="#altschool-reasons"> AltSchool </a>
-            <a href="#engineering-goals"> Goals </a>
+            <div onclick=showhoverbar() >
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" 
+                viewBox="0 -960 960 960" width="40px" fill="wheat"><path 
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                </svg>
+            </div>
+            <div>
+                <a href="#bottom">Page bottom</a>
+            </div>
+            <div>
+                <a href="#biography"> Biography</a>                    
+            </div>
+            <div>
+                <a href="#altschool-reasons"> AltSchool </a>                    
+            </div>
+            <div>
+                <a href="#engineering-goals"> Goals </a>
+            </div>
         </div>
-            
+
+        <nav class="hoverbar">
+            <ul class="list">
+                <li><a href="tables.html"> Courses and Schools </a></li>
+                <li><a href="media.html"> Watch and listen </a></li>
+                <li><a href="registration.html">Start your AltSchool Registration </a></li>
+                <li onclick=closehoverbar()>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="wheat">
+                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                    </svg>
+                </li>
+            </ul>
+        </nav>
+        
+        
         <div class="header">
-            <h1>Hi! Welcome to my Home page </h1>
+            <h2>Hi! Welcome to my Home page </h2>
         </div>
                 
         <p>
@@ -30,6 +58,9 @@
         <cite> “The best way to predict the future is to create it.” &#8208; Abraham Lincoln </cite>        
 
         <hr>
+
+        <div class="first">
+            
         <h1 id="biography"> My biography :</h1>
         <p>
             &nbsp;&nbsp;I'm the third son and fourth child in a family of seven, and I've grown up in the heart of Agege, Lagos State, Nigeria.
@@ -48,8 +79,11 @@
             And who knows? Maybe one day I'll be creating the next big technological breakthrough.
             So that's a little bit about me. If you want to know more, just ask!
         </p>
+
+        </div>
         
-        <h1 id="altschool-reasons"> AltSchool :</h1>
+        <div class="second">
+            <h1 id="altschool-reasons"> AltSchool :</h1>
         <p> <b>why AltSchool:</b> </p>
         <p>
             &nbsp;&nbsp;AltSchool Africa is a leading educational institution focused on equipping individuals with the skills needed to excel in the tech industry. Here's why it stands out:
@@ -83,8 +117,12 @@
             </ul>               
             &nbsp; &nbsp;In essence, AltSchool Africa is a platform that empowers individuals to build successful careers in tech while contributing to the growth of Africa's digital landscape.
             Would you like to know more about specific programs, admission requirements, or success stories?
-        </p>        
+        </p>
 
+        </div>        
+
+        <div class="third">
+        
         <h1 id="engineering-goals"> Goals :</h1>
         <p>
             &nbsp; &nbsp;My ultimate goal is to futher pursue a degree in Front end engineering at AltSchool and use its skills to create innovative solutions for the future;
@@ -101,16 +139,14 @@
             &nbsp; &nbsp;Beyond technical proficiency, my collaborative spirit and positive outlook have been instrumental in my team's success. I've fostered a supportive learning environment, inspiring my peers to reach their full potential.
             My ability to articulate complex technical concepts clearly and concisely is a skill I've honed and will continue to refine. As I embark on this next phase of my career, I'm filled with anticipation for the challenges and opportunities ahead.
             My passion for front-end engineering, coupled with my intelligence and determination, will undoubtedly propel me to new heights. The future of web development is brimming with possibilities, and I am excited to be at the forefront of this dynamic field.
-        </p>   
+        </p>
+        </div>   
     
     </main>
 
     <footer id="bottom">
         <div class="navbar">
             <a href="#top"> Back to Top</a>
-            <a href="tables.html"> Courses and Schools </a>
-            <a href="media.html"> Watch and listen </a>
-            <a href="registration.html">Start your AltSchool Registration </a>
         </div>             
     </footer>
 
