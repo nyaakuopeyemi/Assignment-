@@ -37,19 +37,19 @@ footer{
 .navigation {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: rgb(80, 53, 53);
     padding: 20px;
 }
 .navigation a {
     color: wheat;
     font-weight: 600;
+    padding: 15px;
 }
 .navigation a:hover {
     background-color: #ddd;
     color: black;
     border-radius: 5px;
-    padding: 10px;
 }
 
 .navbar1 {
@@ -76,9 +76,28 @@ footer{
         width: 100%;      
     }
 
-
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        background-color: rgb(80, 53, 53);
+        padding: 50px;
+    }
+    .navigation a {
+        color: wheat;
+        font-weight: 600;
+        padding: 25px;
+    }
+    
     h1{
         text-align: center;
+    }
+    
+    h2 {
+        background-color: rgb(80, 53, 53);
+        padding: 30px;
+        border-radius: 5px;
     }
 
     th, td {
@@ -88,17 +107,8 @@ footer{
     }
 
     th {
-        display: none;
+        display: none;        
     }
-
-    td {
-        padding-left: 40px;      
-    }
-
-    th, tr:nth-child(odd){
-        background-color: #333d4ed0;
-    }
-
 
     footer{
         margin-top: 300px;

@@ -165,10 +165,12 @@ body {
       padding-bottom: 0;
       flex: 1;
       font-size: 20px;
+      min-width: 50px;
     }
 
     form {
-      width: 90%;
+      border: 2px solid black;
+      min-width: 50px;
       margin: 5px;
       margin-bottom: 20px;
     }
@@ -176,7 +178,7 @@ body {
     input[type="text"],
     input[type="email"],
     input[type="password"] {
-      min-width: 10px;
+      min-width: 5px;
     }
 
     select{
@@ -186,8 +188,8 @@ body {
     }
 
     button[type="submit"] {
-      color: white;
-      background-color: #4562a0;
+      color: rgb(206, 200, 200);
+      background-color: rgb(80, 53, 53);
       padding: 12px 20px;
       border: none;
       border-radius: 4px;
@@ -203,31 +205,22 @@ body {
       background-color:#6e81aa;
       width: 100;
     }  */
-   
-
-    .navbar {
-        height: 90%;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        justify-content: center;
-        align-items: center;
-        background-color: #6e81aa;
-        border-radius: 5px;
-        margin: 2px;
-        width: 110%;
-      }
-      
-      .navbar a {
-          color: rgb(238, 222, 222);
-          padding: 14px 90px;
-          text-align: center;
-      }
-
-      .navbar a:hover {
-        width: auto;
-        background-color: #0023645e;
-        color: black;
-        border-radius: 5px;
-        height: 60px;
-      }      
-    }  
+  
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      background-color: rgb(80, 53, 53);
+      padding: 20px;
+      min-width: 200px;
+  }
+  .navigation a {
+      color: wheat;
+      font-weight: 600;
+  }
+  .navigation a:hover {
+      color: black;
+      border-radius: 5px;
+      padding: 10px;
+  }   
+}  
